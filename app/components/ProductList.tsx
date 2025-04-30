@@ -24,7 +24,7 @@ const ProductList = () => {
         <div className='grid grid-cols-1 md:grid-cols-2 lg-grid-cols-3 xl:grid-cols-4 gap-5'>
             {products.map((product: Product, index) => (
                 <Link href={`/product/${product._id}`} key={index}>
-                <Image src={product.image} height={1000} width={1000} alt='product image' className='max-w-[17rem] h-72 object-cover object-center rounded-lg'/>
+                <Image src={product.image} height={200} width={300} alt='product image' className='h-72 object-cover object-center rounded-lg'/>
 
                 <div className='mt-4'>
                     <h2 className='font-semibold text-lg'>{product.name}</h2>
