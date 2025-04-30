@@ -54,9 +54,9 @@ const ProductPage = () => {
         <Image
           src={product.image}
           alt="img"
-          width={1000}
-          height={1000}
-          className="max-w-full md:max-w-xl md:min-w-[30rem] min-h-[28rem] max-h-[28rem] object-cover object-center basis-1/2"
+          width={200}
+          height={300}
+          className=" object-cover object-center basis-1/2"
         />
 
         <div className="basis-1/2 py-8">

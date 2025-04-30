@@ -73,9 +73,9 @@ const UpdateForm = ( {productId}: {productId: string} ) => {
         <Image
           src={imageURL}
           alt="img"
-          width={1000}
-          height={1000}
-          className="max-w-full max-h-72 object-cover object-center rounded-lg"
+          width={200}
+          height={300}
+          className=" object-cover object-center rounded-lg"
         />
       )}
       <div className="flex flex-col w-full">
